@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MyFinancesTracker.Application.Transactions.V1.Features.BankTransactionFeatures.CreateFromCsv;
+﻿namespace MyFinancesTracker.Application.Transactions.V1.Features.BankTransactionFeatures.CreateFromCsv;
 internal class CreateFromCsvResponseDto
 {
 }
