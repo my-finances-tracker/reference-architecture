@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <InvariantGlobalization>true</InvariantGlobalization>
+        <RootNamespace>MyFinancesTracker.ReferenceArchitecture.Presentation</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.0"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MyFinancesTracker.ReferenceArchitecture.Application\MyFinancesTracker.ReferenceArchitecture.Application.csproj" />
+      <ProjectReference Include="..\MyFinancesTracker.ReferenceArchitecture.Infrastructure\MyFinancesTracker.ReferenceArchitecture.Infrastructure.csproj" />
+      <ProjectReference Include="..\MyFinancesTracker.ReferenceArchitecture.Presentation\MyFinancesTracker.ReferenceArchitecture.Presentation.csproj" />
+    </ItemGroup>
+
+</Project>
